@@ -1,0 +1,206 @@
+
+
+:root{
+    --background-colors: #efe7e5;
+    --text-color: #043449;
+}
+
+
+body {
+    font-family: Serif;
+    margin: 3% 15%;
+    background-color: var(--background-colors);
+    color: var(--text-color);
+}
+
+p{
+    line-height: 25px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+nav ul li{
+    margin-left: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+header{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-left{
+    flex: 6;
+    margin-top: 50px;
+}
+
+header .header-left small{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+header .header-left h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+header .header-left .links {
+    margin-top: 80px;
+}
+
+header .header-left .links a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+header .header-right{
+    flex: 5;
+    display: flex;
+    width: 150px;
+    height: 100px;
+}
+
+header .header-right img{
+    width: auto;
+    height: 235px;
+    border-radius: 60px;
+}
+
+img{
+    height: 35px;
+}
+
+.about{
+    margin-top: 150px;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+
+header .header-left a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+section .projets-right img{
+    width: 250px;
+    height: 250px;
+    
+}
+
+section .projets-right p{
+    text-align: right;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+.lien-hangman a{
+    margin: 100px;
+    color: inherit;
+    text-decoration: none;
+
+
+}
+
+.lien-groupie  a{
+    color: inherit;
+    margin: 100px;
+    text-decoration: none;
+
+}
+
+.lien-48h a{
+    margin: 100px;
+    color: inherit;
+    text-decoration: none;
+}
+
+   /* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+  border-color: black;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  --background: #043449;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: .5s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 8px -4px 0px 0px #fff000;
+  background: var(--background);
+  transition: .5s;
+}
+
+input:checked + .slider {
+  background-color: #efe7e5;
+}
+
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #fff000;
+}
