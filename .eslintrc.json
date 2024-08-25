@@ -1,0 +1,8 @@
+{
+    "plugins": [
+        "ejs"
+    ],
+    "rules": {
+        "ejs/no-undef": "error"
+    }
+}

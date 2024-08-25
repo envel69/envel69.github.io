@@ -1,0 +1,25 @@
+{
+  "name": "blog2024",
+  "version": "1.0.0",
+  "description": "Blog personnel du stage de fin de deuxième année",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "darkmode-js": "^1.5.7",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "tilt.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.6.0",
+    "eslint-plugin-ejs": "^0.0.2",
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
